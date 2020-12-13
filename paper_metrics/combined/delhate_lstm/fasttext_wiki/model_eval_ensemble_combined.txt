@@ -1,0 +1,65 @@
+Trial 1
+Number of models: 5
+              precision    recall  f1-score   support
+
+           H      0.255     0.434     0.321       242
+           O      0.945     0.742     0.832      2259
+           N      0.724     0.899     0.802      1301
+
+    accuracy                          0.776      3802
+   macro avg      0.641     0.692     0.652      3802
+weighted avg      0.826     0.776     0.789      3802
+-------------------------------------------------------
+Trial 2
+Number of models: 5
+              precision    recall  f1-score   support
+
+           H      0.213     0.492     0.297       242
+           O      0.941     0.703     0.805      2259
+           N      0.730     0.873     0.795      1301
+
+    accuracy                          0.748      3802
+   macro avg      0.628     0.689     0.632      3802
+weighted avg      0.823     0.748     0.769      3802
+-------------------------------------------------------
+Trial 3
+Number of models: 5
+              precision    recall  f1-score   support
+
+           H      0.260     0.475     0.336       242
+           O      0.938     0.739     0.826      2259
+           N      0.725     0.879     0.794      1301
+
+    accuracy                          0.770      3802
+   macro avg      0.641     0.698     0.652      3802
+weighted avg      0.822     0.770     0.784      3802
+-------------------------------------------------------
+Trial 4
+Number of models: 5
+              precision    recall  f1-score   support
+
+           H      0.258     0.421     0.320       242
+           O      0.950     0.724     0.822      2259
+           N      0.701     0.907     0.791      1301
+
+    accuracy                          0.767      3802
+   macro avg      0.636     0.684     0.644      3802
+weighted avg      0.820     0.767     0.779      3802
+-------------------------------------------------------
+Trial 5
+Number of models: 5
+              precision    recall  f1-score   support
+
+           H      0.237     0.463     0.313       242
+           O      0.936     0.739     0.826      2259
+           N      0.731     0.869     0.794      1301
+
+    accuracy                          0.766      3802
+   macro avg      0.635     0.690     0.644      3802
+weighted avg      0.821     0.766     0.782      3802
+-------------------------------------------------------
+
+Sample Mean and Confidence Interval
+-----------------------------------
+F1 Macro: 0.645 +- 0.010
+Hate Recall: 0.457 +- 0.036

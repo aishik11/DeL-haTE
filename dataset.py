@@ -53,9 +53,12 @@ class PostDataset(Dataset):
     def set_padding(self, pad):
         if pad == 'max':
             pad = self.max_seq_length
-        elif type(pad) is not int:
-            raise TypeError('Invalid padding. Padding must be an integer or '
-                            '"max" which will set padding to the length of max input sequence.')
+        else:
+            try:
+                pad = int(pad)
+            except TypeError as e:
+                raise Exception('Invalid padding. Padding must be an integer or '
+                                '"max" which will set padding to the length of max input sequence.') from e
 
         self.padded_seq = pad
 

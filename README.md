@@ -2,7 +2,7 @@
 Repository for DeL-haTE: A Deep Learning Tunable Ensemble for Hate Speech Detection
 
 ~~~
-@inproceedings{hateoffensive,
+@inproceedings{delhate2020,
   title = {DeL-haTE: A Deep Learning Tunable Ensemble for Hate Speech Detection},
   author = {Melton, Joshua and Bagavathi, Arunkumar and Krishnan, Siddharth}, 
   booktitle = {Proceedings of the 19th IEEE International Conference on Machine Learning and Applications},
